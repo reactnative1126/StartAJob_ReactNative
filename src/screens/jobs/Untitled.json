@@ -1,0 +1,520 @@
+{
+    "JobID": 13995,
+    "MainJobCategoryID": 8,
+    "JobCategoryID": 32,
+    "classified": 0,
+    "EntityID": 54682,
+    // "EntityFirstName": "Ром***",
+    // "EntityLastName": "Олегович********",
+    "EntityCity": "Saint Petersburg",
+    "EntityCountry": "Russia",
+    "ISO3166": "RU",
+    // "Title": "afsdfsdfsdf234332182",
+    // "Description": "ihfysuyfsdyfyuisdyfu",
+    "Budget": 100,
+    "CurrencyID": 1,
+    "Symbol": "$",
+    "EmploymentType": 1, 
+    "PrefferedCountryISO3166": "",
+    "PrefferedStateISO": "",
+    "PrefferedCityId": 0,
+    "HiredEntityId": 0,
+    "isShowPhone": 0,
+    "MinOffer": 0,
+    "MaxOffer": 0,
+    "BidsCount": 0,
+    "JobLocation_altitude": 0,
+    "JobLocation_latitude": 0,
+    "CostToBidUSD": 0,
+    "CostToBidLocal": 0,
+    "FullCostToBidLocal": 0,
+    "CostToBidSymbol": "$",
+    "NewMessages": 0,
+    "CreateDate": "2019-12-30 11:52:47",
+    "UpdateDate": "2019-12-30 11:52:47",
+    // "JobStatus": 2,
+    "JobLocation_Address": "",
+    "JobLocation_CityId": 0,
+    "cityname": "",
+    "JobLocation_DistrictId": 0,
+    "districtname": "",
+    "JobLocation_DistrictId2": 0,
+    "districtname_1": "",
+    "JobLocation_StateISO": "",
+    "statename": "",
+    "JobLocation_CountryISO3166": "RU",
+    // "CountryId": 98,
+    "CountryName": "Russia",
+    "ExpiredDate": "2020-01-29 11:52:47",
+    "WorkingHour_Start": "12:00:00 AM",
+    "WorkingHour_HoursPerDay": 0,
+    "WorkingHour_DayPerWeek": 0,
+    "CancelDate": "",
+    "CancelReason": 0,
+    "CancelReasonRemark": "",
+    "DisputeExpiryDate": "",
+    "employerEscrowId": 0,
+    "employeeEscrowId": 0,
+    "RequestedEntityId": 0,
+    "Distance": 0,
+    "Company": "",
+    "PlacedBid": 0,
+    "Phone": "",
+    "Skills": [
+        {
+            "SkillID": 193,
+            "SkillName": "Graphic design"
+        },
+        {
+            "SkillID": 194,
+            "SkillName": "3D design"
+        },
+        {
+            "SkillID": 195,
+            "SkillName": "Package design"
+        }
+    ],
+    "PrefferedRegionID": [],
+    "Verifications": [
+        1,
+        1,
+        1,
+        0
+    ],
+    "Rating": 0
+}
+
+
+      {/* <Card
+        onPress={() => {
+          this.props.navigation.navigate('ChatScreen', {
+            jobState: "BID_NOT_PLACED",
+            varified: false
+          })
+        }}
+        jobState="NEW_MESSAGE"
+        address="Saint Mark St 124f, LA, CA, 0421431"
+        newMessageCount={5}
+        jobTitle="Build website on WordPress using PHP"
+        userName="John Doe"
+        description="Hello John! I have done a couple of similar project on"
+        isRead={false}
+        timestamp='2 min'
+        distance='0.5 Km'
+        jobType="FULL_TIME"
+        category={'Web Design'}
+        subCategories={["SkillID" : "WordPress, HTML/CSS"}
+      />
+      <Card
+        onPress={() => {
+          alert('Job Card')
+        }}
+        jobTitle="Build website on WordPress using PHP"
+        userName="John Doe"
+        timestamp='2 min'
+        address="Saint Mark St 124f, LA, CA, 0421431"
+        description="Hello John! I have done a couple of similar project on"
+        jobType="FULL_TIME"
+        distance='0.5 Km'
+        category={'Web Design'}
+        // subCategories="WordPress, HTML/CSS"
+      />
+      <Card
+        onPress={() => {
+          alert('Job Card')
+        }}
+        jobTitle="Build website on WordPress using PHP"
+        userName="John Doe"
+        description="Hello John! I have done a couple of similar project on"
+        isRead={true}
+        address="Saint Mark St 124f, LA, CA, 0421431"
+        distance='0.5 Km'
+        timestamp='2 min'
+        jobType="FULL_TIME"
+        category={'Web Design'}
+        // subCategories="WordPress, HTML/CSS"
+        separater={false}
+      />
+      <Card
+        onPress={() => {
+          alert('Job Card')
+        }}
+        jobState="NEW_JOB"
+        jobTitle="Build website on WordPress using PHP"
+        description="Need a professional WordPress developer to create"
+        userName="John Doe"
+        address="Saint Mark St 124f, LA, CA, 0421431"
+        distance='0.5 Km'
+        isRead={false}
+        timestamp='2 min'
+        jobType="FULL_TIME"
+        category={'Web Design'}
+        // subCategories="WordPress, HTML/CSS"
+      />
+      <Card
+        onPress={() => {
+          alert('Job Card')
+        }}
+        jobState="BID_ACCEPTED"
+        bid={{
+          acceptedPrice: 1000,
+          proposedPrice: 1000,
+          days: 0
+        }}
+        onPress={() => {
+          this.props.navigation.navigate('ChatScreen', {
+            jobState: "BID_ACCEPTED",
+            varified: true,
+            oIcon: true
+          })
+        }}
+        description="Hello John! I have done a couple of similar project on"
+        jobTitle="Build website on WordPress using PHP"
+        userName="John Doe"
+        distance='0.5 Km'
+        isRead={false}
+        timestamp='2 min'
+        jobType="ONE_TIME"
+        category={'Web Design'}
+        // subCategories="WordPress, HTML/CSS, CRM, JavaScript"
+      />
+      <Card
+        onPress={() => {
+          alert('Job Card')
+        }}
+        jobState="BID_PLACED"
+        bid={{
+          acceptedPrice: 1000,
+          proposedPrice: 0,
+          days: 0
+        }}
+        description="Hello John! I have done a couple of similar project on"
+        jobTitle="Build website on WordPress using PHP"
+        userName="John Doe"
+        distance='0.5 Km'
+        isRead={false}
+        timestamp='2 min'
+        jobType="ONE_TIME"
+        category={'Web Design'}
+        // subCategories="WordPress, HTML/CSS, CRM, JavaScript"
+      />
+      <Card
+        onPress={() => {
+          alert('Job Card')
+        }}
+        jobState="BID_COMPLETED_RELEASED"
+        bid={{
+          acceptedPrice: 1000,
+          proposedPrice: 0,
+          days: 0
+        }}
+        description="Hello John! I have done a couple of similar project on"
+        jobTitle="Build website on WordPress using PHP"
+        userName="John Doe"
+        distance='0.5 Km'
+        isRead={false}
+        timestamp='2 min'
+        jobType="ONE_TIME"
+        category={'Web Design'}
+        // subCategories="WordPress, HTML/CSS, CRM, JavaScript"
+      /> */}
+
+      
+                            // 'JobID, MainJobCategoryID, JobCategoryID, JobLocation_Address, ' +
+                            // 'EntityID, EntityFirstName, EntityLastName, EntityCity, EntityCountry, ISO3166' + 
+                            // 'Title, Description, Budget, CurrencyID, Symbol, EmploymentType, ' + 
+                            // 'PrefferedCountryISO3166, PrefferedStateISO, PrefferedCityId, HiredEntityId, isShowPhone, ' + 
+                            // 'MinOffer, MaxOffer, BidsCount, JobLocation_altitude, JobLocation_latitude, ' + 
+                            // 'CostToBidUSD, CostToBidLocal, FullCostToBidLocal, CostToBidSymbol, ' + 
+                            // 'NewMessages, CreateDate, UpdateDate, JobStatus, JobLocation_Address, JobLocation_CityId, ' + 
+                            // 'cityname, JobLocation_DistrictId, districtname, JobLocation_DistrictId2, districtname_1, JobLocation_StateISO, statename, ' + 
+                            // 'JobLocation_CountryISO3166, CountryId, CountryName, ExpiredDate, ' + 
+                            // 'WorkingHour_Start, WorkingHour_HoursPerDay, WorkingHour_DayPerWeek, CancelDate, CancelReason, CancelReasonRemark, ' + 
+                            // 'DisputeExpiryDate, employerEscrowId, employeeEscrowId, RequestedEntityId, ' + 
+                            // 'Distance, Company, PlacedBid, Phone, Rating)');
+
+                            
+    // this.addCategories();
+    // this.getCategory(28);
+
+    
+  // componentWillUnmount() {
+    // if (db) {
+    //   console.log("Closing DB");
+    //   db.close()
+    //     .then(status => {
+    //       console.log("Database CLOSED");
+    //     })
+    //     .catch(error => {
+
+    //     });
+    // } else {
+    //   console.log("Database was not OPENED");
+    // }
+  // }
+
+  
+
+  // addCategories() {
+  //   const xmlHeader = '<?xml version="1.0" encoding="utf-8"?>';
+  //   const xmlRequest = '<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="urn:StartAJob.Intf-IJobManagement" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:enc="http://www.w3.org/2003/05/soap-encoding"><env:Body><ns1:GetCategoriesAndSkills env:encodingStyle="http://www.w3.org/2003/05/soap-encoding"/></env:Body></env:Envelope>';
+  //   fetch(configs.jobURL, {
+  //     method: 'POST',
+  //     headers: {
+  //       'Authorization': 'Basic YWRtaW53ZWJzaXRlOk5mbjM5Zm5BQWQyMw==',
+  //       'Content-Type': 'text/xml',
+  //     },
+  //     body: xmlHeader + xmlRequest,
+  //   }).then((response) => response.text())
+  //     .then((responseText) => {
+  //       const responseJson = JSON.parse(responseText.split('<return xsi:type="xsd:string">')[1].split('</return>')[i]);
+
+  //       alert('yes')
+  //       // db.transaction(tx => {
+  //       //   tx.executeSql('CREATE TABLE IF NOT EXISTS Categories (JobCategoryId, JobCategoryName, JobCategoryName_he, JobCategoryName_ru, SkillId, SkillName, SkillName_he, SkillName_ru)');
+  //       // });
+
+  //       const queryStr = "INSERT INTO Categories VALUES";
+  //       // for (i = 0; i < responseJson.length; i++) {
+  //       //   queryStr = queryStr + ' (' +
+  //       //     responseJson[i].JobCategoryId + ', ' +
+  //       //     responseJson[i].JobCategoryName + ', ' +
+  //       //     responseJson[i].JobCategoryName_he + ', ' +
+  //       //     responseJson[i].JobCategoryName_ru + ', ' +
+  //       //     responseJson[i].SkillId + ', ' +
+  //       //     responseJson[i].SkillName + ', ' +
+  //       //     responseJson[i].SkillName_he + ', ' +
+  //       //     responseJson[i].SkillName_ru + '),'
+  //       // }
+  //       alert(queryStr);
+  //       db.transaction(tx => {
+  //         tx.executeSql(queryStr.substring(0, queryStr.length - 2));
+  //       });
+
+  //     }).catch((error) => {
+  //       return
+  //     });
+  // }
+
+  // getCategory(categoryId) {
+  //   db.transaction(tx => {
+  //     // tx.executeSql('SELECT JobCategoryName FROM Categories WHERE JobCategoryId = ? GROUP BY JobCategoryId', [categoryId], (_, { rows }) =>
+  //     tx.executeSql('SELECT JobCategoryName FROM Categories WHERE JobCategoryId = 1580 GROUP BY JobCategoryId', null, (_, { rows }) =>
+  //       console.log(JSON.stringify(rows))
+  //     );
+  //   });
+  // }
+
+// Email: 123456@outlook.com
+// Password: 123456
+// First Name: Silas
+// Last Name: Jo
+// Mobile: 9876543210
+// CountryID: 89(China)
+// aID: 1
+// SignupIP: 192.168.100.125
+// Language: EN
+// EntityID: 120542
+
+// {"ResultCode":1,"ResultMessage":"","EntityId":120542,"AffiliateResultCode":1,"AffiliateResultMessage":"","lid":"x-20142%7C-2%2F416@kqtlkkg._ki%7C-2%2F416i"}
+// <?xml version="1.0" encoding="UTF-8"?>
+// <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="urn:StartAJob.Intf-IGeneral" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:enc="http://www.w3.org/2003/05/soap-encoding"><env:Body><ns1:RegisterNewCustomer env:encodingStyle="http://www.w3.org/2003/05/soap-encoding"><Email xsi:type="xsd:string">123456@outlook.com</Email><Password xsi:type="xsd:string">123456</Password><FirstName xsi:type="xsd:string">Silas</FirstName><LastName xsi:type="xsd:string">Jo</LastName><Mobile xsi:type="xsd:string">9876543210</Mobile><CountryID xsi:type="xsd:int">89</CountryID><aID xsi:type="xsd:int">1</aID><SignupIP xsi:type="xsd:string">192.168.100.125</SignupIP><Language xsi:type="xsd:string">EN</Language></ns1:RegisterNewCustomer></env:Body></env:Envelope>
+// <?xml version="1.0"?>
+// <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:NS1="urn:StartAJob.Intf-IGeneral"><NS1:RegisterNewCustomerResponse><return xsi:type="xsd:string">
+//   {"ResultCode":1,"ResultMessage":"","EntityId":120542,"AffiliateResultCode":1,"AffiliateResultMessage":"","lid":"x-20142%7C-2%2F416@kqtlkkg._ki%7C-2%2F416i"}</return></NS1:RegisterNewCustomerResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+// [
+  // {"JobCategoryID":6,"ParentID":0,"Level":0,"JobCategoryName":"Local Service Providers","JobsCount":2153,"isLocal":1,"proCount":51,"classified":0,"SEO_title":"","SEO_description":""},
+  // {"JobCategoryID":8,"ParentID":0,"Level":0,"JobCategoryName":"Creative","JobsCount":3281,"isLocal":0,"proCount":20,"classified":0,"SEO_title":"","SEO_description":""},
+  // {"JobCategoryID":12,"ParentID":0,"Level":0,"JobCategoryName":"Industry Specialists","JobsCount":1622,"isLocal":0,"proCount":44,"classified":0,"SEO_title":"","SEO_description":""},
+  // {"JobCategoryID":7,"ParentID":0,"Level":0,"JobCategoryName":"Technology","JobsCount":2262,"isLocal":0,"proCount":63,"classified":0,"SEO_title":"","SEO_description":""}]
+
+
+  
+        // const sqliteDirectory = `${FileSystem.documentDirectory}SQLite`;
+        // const { exists, isDirectory } = await FileSystem.getInfoAsync(sqliteDirectory);
+
+        // if(!exists){
+        //     await FileSystem.makeDirectoryAsync(sqliteDirectory);
+        // } else if (!isDirectory) {
+        //     throw new Error('SQLite dir is not a directory');
+        // }
+
+        // const pathToDownloadTo = `${sqliteDirectory}/StartAJob.db`;
+        // const uriToDownload = Asset.fromModule(require('../src/utils/StartAJob.png')).uri;
+        // console.log(`Will download ${uriToDownload} to ${pathToDownloadTo}`);
+
+        // await FileSystem.downloadAsync(uriToDownload, pathToDownloadTo);
+
+        // 'INSERT INTO categories(JobCategoryID, ParentID, Level, JobCategoryName, JobsCount, proCount, isLocal, classified, SEO_title, SEO_description) VALUES(?,?,?,?,?,?,?,?,?,?)' +
+        //                 [category.JobCategoryID, category.ParentID, category.Level, category.JobCategoryName, category.JobsCount, category.proCount, category.isLocal, category.classified, category.SEO_title, category.SEO_description]
+
+        
+      // var queryString = `INSERT INTO categories(JobCategoryID, ParentID, Level, JobCategoryName, JobsCount, proCount, isLocal, classified, SEO_title, SEO_description) VALUES(${category.JobCategoryID}, ${category.ParentID}, ${category.Level}, '${category.JobCategoryName}', ${category.JobsCount}, ${category.proCount}, ${category.isLocal}, ${category.classified}, '${category.SEO_title}', '${category.SEO_description}');`;
+      // tx.executeSql(queryString);
+      
+      // var queryString = `SELECT * FROM categories`;
+
+      
+    // addJob(job) {
+    //     return new Promise((resolve) => {
+    //         this.initDB().then((db) => {
+    //             db.transaction((tx) => {
+    //                 tx.executeSql('INSERT INTO Jobs VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+    //                     [job.JobID, job.JobCategoryID, job.EntityID, job.EntityFirstName, job.EntityLastName, job.EntityCity, job.EntityCountry, job.ISO3166, job.Title, job.Description, job.EmploymentType, job.JobLocation_Address, job.Distance])
+    //                     .then(([tx, results]) => {
+    //                         resolve(results);
+    //                     });
+    //             }).then((result) => {
+    //                 this.closeDatabase(db);
+    //             }).catch((err) => {
+    //                 console.log(err);
+    //             });
+    //         }).catch((err) => {
+    //             console.log(err);
+    //         });
+    //     });
+    // }
+
+    // addSkill(skill) {
+    //     return new Promise((resolve) => {
+    //         this.initDB().then((db) => {
+    //             db.transaction((tx) => {
+    //                 tx.executeSql('INSERT INTO Skills VALUES (?, ?, ?)', [skill.JobID, skill.SkillID, skill.SkillName])
+    //                     .then(([tx, results]) => {
+    //                         resolve(results);
+    //                     });
+    //             }).then((result) => {
+    //                 this.closeDatabase(db);
+    //             }).catch((err) => {
+    //                 console.log(err);
+    //             });
+    //         }).catch((err) => {
+    //             console.log(err);
+    //         });
+    //     });
+    // }
+
+    // addCategory(category) {
+    //     return new Promise((resolve) => {
+    //         this.initDB().then((db) => {
+    //             db.transaction((tx) => {
+    //                 tx.executeSql('INSERT INTO Categories VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+    //                     [category.JobCategoryId, category.JobCategoryName, category.JobCategoryName_he, category.JobCategoryName_ru, category.SkillId, category.SkillName, category.SkillName_he, category.SkillName_ru])
+    //                     .then(([tx, results]) => {
+    //                         resolve(results);
+    //                     });
+    //             }).then((result) => {
+    //                 this.closeDatabase(db);
+    //             }).catch((err) => {
+    //                 console.log(err);
+    //             });
+    //         }).catch((err) => {
+    //             console.log(err);
+    //         });
+    //     });
+    // }
+
+    // getCategoryName(categoryId) {
+    //     return new Promise((resolve) => {
+    //         this.initDB().then((db) => {
+    //             db.transaction((tx) => {
+    //                 tx.executeSql('SELECT JobCategoryName FROM Categories WHERE JobCategoryId = ? GROUP BY JobCategoryId', [categoryId])
+    //                     .then(([tx, results]) => {
+    //                         resolve(results);
+    //                     });
+    //             }).then((result) => {
+    //                 this.closeDatabase(db);
+    //             }).catch((err) => {
+    //                 console.log(err);
+    //             });
+    //         }).catch((err) => {
+    //             console.log(err);
+    //         });
+    //     });
+    // }
+
+    // getJobList() {
+    //     return new Promise((resolve) => {
+    //         const jobs = [];
+    //         this.initDB().then((db) => {
+    //             db.transaction((tx) => {
+    //                 tx.executeSql('SELECT j.JobID, j.JobCategoryID, j.EntityID, j.EntityFirstName, j.EntityLastName, j.EntityCity, j.EntityCountry, j.ISO3166, j.Title, j.Description, j.EmploymentType, j.JobLocation_Address, j.Distance FROM Jobs j', []).then(([tx, results]) => {
+    //                     console.log("Query completed");
+    //                     var len = results.rows.length;
+    //                     for (let i = 0; i < len; i++) {
+    //                         let row = results.rows.item(i);
+    //                         const { JobID, JobCategoryID, EntityID, EntityFirstName, EntityLastName, EntityCity, EntityCountry, ISO3166, Title, Description, EmploymentType, JobLocation_Address, Distance } = row;
+    //                         jobs.push({ JobID, JobCategoryID, EntityID, EntityFirstName, EntityLastName, EntityCity, EntityCountry, ISO3166, Title, Description, EmploymentType, JobLocation_Address, Distance });
+    //                     }
+    //                     console.log(jobs);
+    //                     resolve(jobs);
+    //                 });
+    //             }).then((result) => {
+    //                 this.closeDatabase(db);
+    //             }).catch((err) => {
+    //                 console.log(err);
+    //             });
+    //         }).catch((err) => {
+    //             console.log(err);
+    //         });
+    //     });
+    // }
+
+
+    
+
+  // getCategory(categoryId) {
+  //   db.transaction(tx => {
+  //     tx.executeSql('SELECT JobCategoryName FROM Categories WHERE JobCategoryId = ? GROUP BY JobCategoryId', [categoryId], (_, { rows }) => {
+  //       console.log('item:', rows._array[0].JobCategoryName);
+  //     })
+  //   });
+  // }
+
+  // addJobs() {
+  //   const { entityId, username, password, listKind, jobId, jobCategoryId, jobStatus, searchText, limitForm, limitCount, searchBudgetMin, SearchBudgetMax, searchSkillId, searchCountryISO, searchStateISO, searchCityId, searchVerificationArray, searchEmploymentType, searchEntityId, sortByDestination, languageISO } = this.state;
+  //   const xmlHeader = '<?xml version="1.0" encoding="utf-8"?>';
+  //   const xmlRequest = '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"><Body><GetJobsList xmlns="http://tempuri.org/"><EntityID>' + entityId + '</EntityID><Username>' + username + '</Username><Password>' + password + '</Password><ListKind>' + listKind + '</ListKind><JobID>' + jobId + '</JobID><JobCategoryID>' + jobCategoryId + '</JobCategoryID><JobStatus>' + jobStatus + '</JobStatus><SearchText>' + searchText + '</SearchText><LimitFrom>' + limitForm + '</LimitFrom><LimitCount>' + limitCount + '</LimitCount><SearchBudgetMin>' + searchBudgetMin + '</SearchBudgetMin><SearchBudgetMax>' + SearchBudgetMax + '</SearchBudgetMax><SearchSkillId>' + searchSkillId + '</SearchSkillId><SearchCountryISO>' + searchCountryISO + '</SearchCountryISO><SearchStateISO>' + searchStateISO + '</SearchStateISO><SearchCityId>' + searchCityId + '</SearchCityId><SearchVerificationArray>' + searchVerificationArray + '</SearchVerificationArray><SearchEmploymentType>' + searchEmploymentType + '</SearchEmploymentType><SearchEntityId>' + searchEntityId + '</SearchEntityId><SortByDestination>' + sortByDestination + '</SortByDestination><LanguageISO>' + languageISO + '</LanguageISO></GetJobsList></Body></Envelope>';
+  //   fetch(configs.jobURL, {
+  //     method: 'POST',
+  //     headers: {
+  //       'Authorization': 'Basic YWRtaW53ZWJzaXRlOk5mbjM5Zm5BQWQyMw==',
+  //       'Content-Type': 'text/xml',
+  //     },
+  //     body: xmlHeader + xmlRequest,
+  //   }).then((response) => response.text())
+  //     .then((responseText) => {
+  //       const responseJson = JSON.parse(responseText.split('<return xsi:type="xsd:string">')[1].split('</return>')[0]);
+  //       // db.transaction(tx => {
+  //       //   tx.executeSql('CREATE TABLE IF NOT EXISTS Jobs (JobCategoryId, JobCategoryName, JobCategoryName_he, JobCategoryName_ru, SkillId, SkillName, SkillName_he, SkillName_ru)');
+        
+  //       //   responseJson.map((category) => {
+  //       //     tx.executeSql('INSERT INTO Categories VALUES (?,?,?,?,?,?,?,?)', [category.JobCategoryId, category.JobCategoryName, category.JobCategoryName_he, category.JobCategoryName_ru, category.SkillId, category.SkillName, category.SkillName_he, category.SkillName_ru]);
+  //       //   });
+  //       // });
+  //     }).catch((error) => {
+  //       return
+  //     });
+  // }
+
+  // getJobList() {
+  //   const { entityId, username, password, listKind, jobId, jobCategoryId, jobStatus, searchText, limitForm, limitCount, searchBudgetMin, SearchBudgetMax, searchSkillId, searchCountryISO, searchStateISO, searchCityId, searchVerificationArray, searchEmploymentType, searchEntityId, sortByDestination, languageISO } = this.state;
+  //   const xmlHeader = '<?xml version="1.0" encoding="utf-8"?>';
+  //   const xmlRequest = '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"><Body><GetJobsList xmlns="http://tempuri.org/"><EntityID>' + entityId + '</EntityID><Username>' + username + '</Username><Password>' + password + '</Password><ListKind>' + listKind + '</ListKind><JobID>' + jobId + '</JobID><JobCategoryID>' + jobCategoryId + '</JobCategoryID><JobStatus>' + jobStatus + '</JobStatus><SearchText>' + searchText + '</SearchText><LimitFrom>' + limitForm + '</LimitFrom><LimitCount>' + limitCount + '</LimitCount><SearchBudgetMin>' + searchBudgetMin + '</SearchBudgetMin><SearchBudgetMax>' + SearchBudgetMax + '</SearchBudgetMax><SearchSkillId>' + searchSkillId + '</SearchSkillId><SearchCountryISO>' + searchCountryISO + '</SearchCountryISO><SearchStateISO>' + searchStateISO + '</SearchStateISO><SearchCityId>' + searchCityId + '</SearchCityId><SearchVerificationArray>' + searchVerificationArray + '</SearchVerificationArray><SearchEmploymentType>' + searchEmploymentType + '</SearchEmploymentType><SearchEntityId>' + searchEntityId + '</SearchEntityId><SortByDestination>' + sortByDestination + '</SortByDestination><LanguageISO>' + languageISO + '</LanguageISO></GetJobsList></Body></Envelope>';
+  //   fetch(configs.jobURL, {
+  //     method: 'POST',
+  //     headers: {
+  //       'Authorization': 'Basic YWRtaW53ZWJzaXRlOk5mbjM5Zm5BQWQyMw==',
+  //       'Content-Type': 'text/xml',
+  //     },
+  //     body: xmlHeader + xmlRequest,
+  //   }).then((response) => response.text())
+  //     .then((responseText) => {
+  //       const responseJson = JSON.parse(responseText.split('<return xsi:type="xsd:string">')[1].split('</return>')[0]);
+  //       this.setState({ jobs: responseJson });
+  //     }).catch((error) => {
+  //       return
+  //     });
+  // }
